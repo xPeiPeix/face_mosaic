@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {%- seo -%}
+  <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
+  {%- feed_meta -%}
+  {%- if jekyll.environment == 'production' and site.google_analytics -%}
+    {%- include google-analytics.html -%}
+  {%- endif -%}
+  
+  <style>
+    /* 自定义样式 */
+    .site-header {
+      border-top: 5px solid #424242;
+      border-bottom: 1px solid #e8e8e8;
+      min-height: 55.95px;
+      position: relative;
+    }
+    
+    .page-content {
+      padding: 30px 0;
+      flex: 1;
+    }
+    
+    .post-content h1, .post-content h2, .post-content h3, .post-content h4, .post-content h5, .post-content h6 {
+      margin-top: 30px;
+      margin-bottom: 15px;
+    }
+    
+    .highlight {
+      background: #f8f8f8;
+      border: 1px solid #ddd;
+      border-radius: 3px;
+      padding: 10px;
+      margin: 15px 0;
+    }
+    
+    table {
+      border-collapse: collapse;
+      border-spacing: 0;
+      width: 100%;
+      margin: 15px 0;
+    }
+    
+    table th, table td {
+      border: 1px solid #ddd;
+      padding: 8px 12px;
+      text-align: left;
+    }
+    
+    table th {
+      background-color: #f8f8f8;
+      font-weight: bold;
+    }
+    
+    table tr:nth-child(even) {
+      background-color: #f9f9f9;
+    }
+    
+    .badges {
+      text-align: center;
+      margin: 20px 0;
+    }
+    
+    .badges img {
+      margin: 2px;
+    }
+  </style>
+</head>
+
+<body>
+
+  {%- include header.html -%}
+
+  <main class="page-content" aria-label="Content">
+    <div class="wrapper">
+      {{ content }}
+    </div>
+  </main>
+
+  {%- include footer.html -%}
+
+</body>
+
+</html> 

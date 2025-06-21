@@ -9,10 +9,17 @@ repository: "xPeiPeix/face_mosaic"
 
 # Build settings
 markdown: kramdown
-theme: minima
+remote_theme: minima
+highlighter: rouge
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
 plugins:
   - jekyll-feed
   - jekyll-sitemap
+  - jekyll-remote-theme
+  - jekyll-seo-tag
 
 # Exclude from processing
 exclude:
