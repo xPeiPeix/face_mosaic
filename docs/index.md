@@ -5,23 +5,13 @@ title: 人脸自动打马赛克工具
 
 # 人脸自动打马赛克工具
 
-<div class="badges">
-  <a href="https://www.python.org/" target="_blank">
-    <img src="https://img.shields.io/badge/python-3.11+-blue.svg" alt="Python">
-  </a>
-  <a href="https://mediapipe.dev/" target="_blank">
-    <img src="https://img.shields.io/badge/MediaPipe-0.10+-green.svg" alt="MediaPipe">
-  </a>
-  <a href="https://opencv.org/" target="_blank">
-    <img src="https://img.shields.io/badge/OpenCV-4.8+-orange.svg" alt="OpenCV">
-  </a>
-  <a href="https://github.com/xPeiPeix/face_mosaic/blob/main/LICENSE" target="_blank">
-    <img src="https://img.shields.io/badge/license-MIT-yellow.svg" alt="License">
-  </a>
-  <a href="https://github.com/xPeiPeix/face_mosaic/stargazers" target="_blank">
-    <img src="https://img.shields.io/github/stars/xPeiPeix/face_mosaic?style=social" alt="GitHub Stars">
-  </a>
-</div>
+<p align="center">
+<a href="https://www.python.org/"><img src="https://img.shields.io/badge/python-3.11+-blue.svg" alt="Python"></a>
+<a href="https://mediapipe.dev/"><img src="https://img.shields.io/badge/MediaPipe-0.10+-green.svg" alt="MediaPipe"></a>
+<a href="https://opencv.org/"><img src="https://img.shields.io/badge/OpenCV-4.8+-orange.svg" alt="OpenCV"></a>
+<a href="https://github.com/xPeiPeix/face_mosaic/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-yellow.svg" alt="License"></a>
+<a href="https://github.com/xPeiPeix/face_mosaic/stargazers"><img src="https://img.shields.io/github/stars/xPeiPeix/face_mosaic?style=social" alt="GitHub Stars"></a>
+</p>
 
 基于 MediaPipe 实现的高精度人脸检测和自动马赛克处理工具，支持图片和视频处理，**完美保留原始音频**。
 
