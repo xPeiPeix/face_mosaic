@@ -83,17 +83,9 @@ python face_mosaic.py --batch-folder ./videos/ --max-workers 4
 - **内存占用**: 峰值约 2GB
 - **音频延迟**: <1秒（合并阶段）
 
-## 📚 详细文档
+## 📚 项目文档
 
-- [安装指南](installation.html)
-- [使用教程](tutorial.html)
-- [API文档](api.html)
-- [常见问题](faq.html)
-
-## 📞 获取帮助
-
-- **GitHub Issues**: [提交问题](https://github.com/xPeiPeix/face_mosaic/issues)
-- **GitHub Discussions**: [讨论交流](https://github.com/xPeiPeix/face_mosaic/discussions)
+- [项目源码和详细说明](https://github.com/xPeiPeix/face_mosaic)
 
 ## 📄 许可证
 
