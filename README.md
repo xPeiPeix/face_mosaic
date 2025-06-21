@@ -1,5 +1,16 @@
 # 人脸自动打马赛克工具
 
+<div align="center">
+
+![Python](https://img.shields.io/badge/python-3.11+-blue.svg)
+![MediaPipe](https://img.shields.io/badge/MediaPipe-0.10+-green.svg)
+![OpenCV](https://img.shields.io/badge/OpenCV-4.8+-orange.svg)
+![License](https://img.shields.io/badge/license-MIT-yellow.svg)
+![GitHub Stars](https://img.shields.io/github/stars/xPeiPeix/face_mosaic?style=social)
+![GitHub Forks](https://img.shields.io/github/forks/xPeiPeix/face_mosaic?style=social)
+
+</div>
+
 基于 MediaPipe 实现的高精度人脸检测和自动马赛克处理工具，支持图片和视频处理，**完美保留原始音频**。
 
 ## ✨ 核心特性

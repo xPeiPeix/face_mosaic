@@ -1,0 +1,43 @@
+title: "人脸自动打马赛克工具"
+description: "基于MediaPipe的智能人脸马赛克工具 - 高精度检测，支持图片/视频处理，完美保留音频，批量并发处理"
+url: "https://xPeiPeix.github.io"
+baseurl: "/face_mosaic"
+
+# GitHub info
+github_username: xPeiPeix
+repository: "xPeiPeix/face_mosaic"
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/
+
+# Collections
+collections:
+  docs:
+    output: true
+    permalink: /:collection/:name/
+
+# Navigation
+navigation:
+  - title: "首页"
+    url: "/"
+  - title: "安装指南"
+    url: "/installation/"
+  - title: "使用教程" 
+    url: "/tutorial/"
+  - title: "API文档"
+    url: "/api/"
+  - title: "常见问题"
+    url: "/faq/"
+  - title: "GitHub"
+    url: "https://github.com/xPeiPeix/face_mosaic" 
