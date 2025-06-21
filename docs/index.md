@@ -5,14 +5,22 @@ title: 人脸自动打马赛克工具
 
 # 人脸自动打马赛克工具
 
-<div align="center">
-
-![Python](https://img.shields.io/badge/python-3.11+-blue.svg)
-![MediaPipe](https://img.shields.io/badge/MediaPipe-0.10+-green.svg)
-![OpenCV](https://img.shields.io/badge/OpenCV-4.8+-orange.svg)
-![License](https://img.shields.io/badge/license-MIT-yellow.svg)
-![GitHub Stars](https://img.shields.io/github/stars/xPeiPeix/face_mosaic?style=social)
-
+<div class="badges">
+  <a href="https://www.python.org/" target="_blank">
+    <img src="https://img.shields.io/badge/python-3.11+-blue.svg" alt="Python">
+  </a>
+  <a href="https://mediapipe.dev/" target="_blank">
+    <img src="https://img.shields.io/badge/MediaPipe-0.10+-green.svg" alt="MediaPipe">
+  </a>
+  <a href="https://opencv.org/" target="_blank">
+    <img src="https://img.shields.io/badge/OpenCV-4.8+-orange.svg" alt="OpenCV">
+  </a>
+  <a href="https://github.com/xPeiPeix/face_mosaic/blob/main/LICENSE" target="_blank">
+    <img src="https://img.shields.io/badge/license-MIT-yellow.svg" alt="License">
+  </a>
+  <a href="https://github.com/xPeiPeix/face_mosaic/stargazers" target="_blank">
+    <img src="https://img.shields.io/github/stars/xPeiPeix/face_mosaic?style=social" alt="GitHub Stars">
+  </a>
 </div>
 
 基于 MediaPipe 实现的高精度人脸检测和自动马赛克处理工具，支持图片和视频处理，**完美保留原始音频**。
@@ -65,11 +73,12 @@ python face_mosaic.py --batch-folder ./videos/ --max-workers 4
 - **🔒 线程安全**：每个线程独立MediaPipe检测器，避免状态冲突
 
 ### 性能表现
+
 | CPU核心数 | 推荐并发数 | 预期加速比 |
-|-----------|------------|------------|
-| 4核心 | 2-3 | 2-2.5倍 |
-| 8核心 | 4-6 | 3-4倍 |
-| 16核心+ | 6-8 | 4-5倍 |
+|:----------|:-----------|:-----------|
+| 4核心     | 2-3        | 2-2.5倍    |
+| 8核心     | 4-6        | 3-4倍      |
+| 16核心+   | 6-8        | 4-5倍      |
 
 ## 📊 性能基准
 
